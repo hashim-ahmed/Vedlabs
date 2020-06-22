@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6FCFF"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.activities.HorrorScopeProfile">
+
+
+    <RelativeLayout
+        android:id="@+id/rltvLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_splash_logo" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_scope" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvDailyScope"
+        style="@style/TextViewBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:text="@string/Daily_horror_scope"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rltvLayout" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvDailyScope">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecyler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/rltHorrorScope"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/gradient_button">
+
+        <TextView
+            android:id="@+id/tvScope"
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="46dp"
+            android:text="Horror Scope"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/tvView"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="36dp"
+            android:layout_toRightOf="@id/tvScope"
+            android:background="#FFF" />
+
+        <TextView
+            android:id="@+id/tvProfile"
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="46dp"
+            android:layout_toRightOf="@+id/tvView"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

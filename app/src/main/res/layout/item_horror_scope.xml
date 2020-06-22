@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/gradient"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Mon, 11 June 2020"
+            android:textColor="#1F65A2"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Dear John Deo"
+            android:textColor="#1F65A2"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Please find today's nakshatra prediction"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvMoonSign"
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Moon Sign : Virgo"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvNakshatra"
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Nakshtra : Virgo"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Read more.."
+            android:textColor="#1F65A2"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

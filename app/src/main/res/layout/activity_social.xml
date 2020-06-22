@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F0FF"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.activities.SocialActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/ic_vadlab" />
+
+
+    <TextView
+        style="@style/TextViewRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:text="Welcome to"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_splash_logo" />
+
+    <RelativeLayout
+        android:id="@+id/rltGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/round_white">
+
+
+        <ImageView
+            android:id="@+id/ivGoogle"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_google" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            style="@style/TextViewRegular"
+            android:layout_toRightOf="@id/ivGoogle"
+            android:text="@string/continue_google" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/round_white">
+
+        <ImageView
+            android:id="@+id/ivFacebook"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_facebook" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            style="@style/TextViewRegular"
+            android:layout_toRightOf="@id/ivFacebook"
+            android:text="@string/continue_facebook" />
+    </RelativeLayout>
+
+
+</LinearLayout>

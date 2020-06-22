@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F6FCFF"
+    android:fitsSystemWindows="true"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_toRightOf="@id/ivBack"
+            android:text="@string/Daily_horror_scope"
+            android:textColor="#000"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/gradient"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Mon, 11 June 2020"
+            android:textColor="#1F65A2"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Dear John Deo"
+            android:textColor="#1F65A2"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Please find today's nakshatra prediction"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvMoonSign"
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Moon Sign : Virgo"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvNakshatra"
+            style="@style/TextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Nakshtra : Virgo"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvHealth"
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Health : Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+            android:textColor="#1F65A2"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvEmotions"
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Emotions : Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+            android:textColor="#1F65A2"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvProfession"
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Profession : Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+            android:textColor="#1F65A2"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltHorrorScope"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/gradient_button">
+
+        <TextView
+            android:id="@+id/tvScope"
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="46dp"
+            android:text="Horror Scope"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/tvView"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="36dp"
+            android:layout_toRightOf="@id/tvScope"
+            android:background="#FFF" />
+
+        <TextView
+            style="@style/TextViewRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="46dp"
+            android:layout_toRightOf="@+id/tvView"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

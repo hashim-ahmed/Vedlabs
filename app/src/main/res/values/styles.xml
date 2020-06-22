@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="TextViewRegular" parent="android:Widget.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">@font/productsansregular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+
+    <style name="TextViewBold" parent="android:Widget.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">@font/productsansbold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ButtonRegular" parent="android:Widget.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">@font/productsansregular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonBold" parent="android:Widget.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">@font/productsansbold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

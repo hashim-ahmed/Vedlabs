@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Vedlabs</string>
+    <string name="continue_google">Continue with Google</string>
+    <string name="continue_facebook">Continue with Facebook</string>
+    <string name="about_your_self">Tell Us About Yourself</string>
+    <string name="birth_time">Birth Time</string>
+    <string name="first_name">First Name</string>
+    <string name="Last_name">Last Name</string>
+    <string name="City">City</string>
+    <string name="Date_of_birth">Date of Birth</string>
+    <string name="Gender">Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="detail_correct">All Details are Correct</string>
+    <string name="Continue">Continue</string>
+    <string name="place_of_birth">Palace of Birth</string>
+    <string name="Moon_sign">Moon Sign</string>
+    <string name="sun_sign">Sun Sign</string>
+    <string name="lucky_day">Lucky Day</string>
+    <string name="lucky_number">Lucky Number</string>
+    <string name="lucky_color">Lucky Color</string>
+    <string name="edit">Edit</string>
+    <string name="Save">Save</string>
+    <string name="Daily_horror_scope">Daily Horoscope!</string>
+
+
+    <string name="continue_google_hindi">Google के साथ जारी रखें</string>
+    <string name="continue_facebook_hindi">फेसबुक के साथ जारी रखें</string>
+    <string name="about_your_self_hindi">आप अपने बारे में बताओ</string>
+    <string name="birth_time_hindi">जन्म समय</string>
+    <string name="first_name_hindi">पहला नाम</string>
+    <string name="last_name_hindi">अंतिम नाम</string>
+    <string name="city_hindi">शहर</string>
+    <string name="date_of_bith_hindi">जन्म की तारीख</string>
+    <string name="gender_hindi">लिंग</string>
+    <string name="male_hindi">नर</string>
+    <string name="female_hindi">महिला</string>
+    <string name="correct_detail_hindi">सभी विवरण सही हैं</string>
+    <string name="conit_hindi">जारी रखें</string>
+    <string name="place_of_birth_hindi">जन्म स्थान</string>
+    <string name="moon_sign_hindi">राशि</string>
+    <string name="sun_sign_hindi">कुण्डली</string>
+    <string name="lucky_day_hindi">भाग्यशाली दिन</string>
+    <string name="lucky_number_hindi">भाग्यशाली अंक</string>
+    <string name="lucky_color_hindi">भाग्यशाली रंग</string>
+    <string name="edit_hindi">संपादित करें</string>
+    <string name="save_hindi">ससहेजें</string>
+    <string name="daily_scope_hindi">दैनिक राशिफल!</string>
+
+
+</resources>

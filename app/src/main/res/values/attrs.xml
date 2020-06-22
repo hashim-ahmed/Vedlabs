@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="KnifeText">
+        <attr name="bulletColor" format="reference|color" />
+        <attr name="bulletRadius" format="reference|dimension" />
+        <attr name="bulletGapWidth" format="reference|dimension" />
+        <attr name="historyEnable" format="reference|boolean" />
+        <attr name="historySize" format="reference|integer" />
+        <attr name="linkColor" format="reference|color" />
+        <attr name="linkUnderline" format="reference|boolean" />
+        <attr name="quoteColor" format="reference|color" />
+        <attr name="quoteStripeWidth" format="reference|dimension" />
+        <attr name="quoteCapWidth" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragFromEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RatingBar">
+        <attr name="filledDrawable" format="integer" />
+        <attr name="emptyDrawable" format="integer" />
+        <attr name="rating" format="float"/>
+        <attr name="numStars" format="integer"/>
+        <attr name="minAllowedStars" format="integer"/>
+        <attr name="starSize" format="dimension"/>
+        <attr name="starSpacing" format="dimension"/>
+        <attr name="starMargin" format="dimension" />
+        <attr name="isIndicator" format="boolean"/>
+        <attr name="stepSize" format="float"/>
+        <attr name="selectTheTappedRating" format="boolean"/>
+    </declare-styleable>
+</resources>

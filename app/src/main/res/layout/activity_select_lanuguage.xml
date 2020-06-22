@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E1F0FF"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activities.SelectLanguageActivity">
+
+
+
+    <TextView
+        style="@style/TextViewBold"
+        android:layout_marginTop="56dp"
+        android:layout_marginStart="16dp"
+        android:textSize="22sp"
+        android:textColor="#1F65A2"
+        android:text="Select Your Language"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon_language"/>
+
+    <RelativeLayout
+        android:id="@+id/rltHindi"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="86dp"
+        android:background="@drawable/round_white"
+        android:layout_marginStart="26dp">
+
+        <TextView
+            style="@style/TextViewRegular"
+            android:text="Hindi"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_centerVertical="true"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/ivCheckHindi"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:layout_marginEnd="16dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/round_white"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp">
+        <TextView
+            style="@style/TextViewRegular"
+            android:text="English"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_centerVertical="true"
+            android:textColor="#000"/>
+        <ImageView
+            android:id="@+id/ivCheckEnglish"
+            android:layout_width="25dp"
+            android:visibility="gone"
+            android:layout_height="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_check"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Next"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="70dp"/>
+
+
+</LinearLayout>
